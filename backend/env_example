@@ -1,0 +1,10 @@
+module.exports = {
+    MYSQL_USER : '',
+    MYSQL_PASSWORD : '',
+    MYSQL_DATABASE : '',
+    MYSQL_HOST : '',
+    MYSQL_PORT : '',
+    JWT_KEY : '',
+    TOKEN_EXP: '',
+    PORT: ''
+}
