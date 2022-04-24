@@ -14,7 +14,7 @@ class Category extends Sequelize.Model {
                 validate: {
                     len: {
                         args: [3,45],
-                        msg: 'Category must have at between 3 and 45 characters'
+                        msg: 'Category must have between 3 and 45 characters'
                     }
                 }
             }

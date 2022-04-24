@@ -1,8 +1,9 @@
 const Sequelize  = require('sequelize')
 const databaseConfig  = require('../config/database')
 const Category  = require('../models/Category')
+const Product = require('../models/Product')
 
-const models = [Category]
+const models = [Category, Product]
 
 const conn = new Sequelize(databaseConfig)
 
