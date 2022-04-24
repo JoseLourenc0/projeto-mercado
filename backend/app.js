@@ -7,6 +7,7 @@ require('./src/db')
 //IMPORT DAS ROTAS
 const categoryRoutes = require('./src/routes/category')
 const productRoutes = require('./src/routes/product')
+const regProducts = require('./src/routes/regProduct')
 
 app.use(morgan('dev'))
 app.use(express.json())
@@ -17,6 +18,7 @@ app.use(cors())
 //UTILIZAÇÃO DAS ROTAS
 app.use('/category', categoryRoutes)
 app.use('/product', productRoutes)
+app.use('/regProduct', regProducts)
 
 //Tratando rota não encontrada
 app.use((req, res, next) => {
