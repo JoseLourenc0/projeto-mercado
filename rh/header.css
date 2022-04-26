@@ -118,3 +118,6 @@ nav {
 #menuToggle input:checked ~ ul {
     transform: none;
 }
+
+/*logo sidebar*/
+
