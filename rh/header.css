@@ -5,6 +5,7 @@
 /*sidebar*/
 .container {
     display: flex;
+    text-align: center;
 }
 
 a {
@@ -35,6 +36,7 @@ ul {
 nav {
     background-color: #900000;
     height: 70px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.493);
 }
 
 #menuToggle {
@@ -120,4 +122,44 @@ nav {
 }
 
 /*logo sidebar*/
+#logo-sidebar{
+    position: absolute;
+    width: 100%;
+    margin-top: 5px;
+}
 
+/*perfil*/
+#perfil{
+    position: absolute;
+    color: white;
+    right: 15px;
+    font-family: "work sans", sans serif;
+    font-size: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+#foto{
+    border-radius: 180px;
+    position: absolute;
+    right: 60px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.material-symbols-outlined {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.meu-perfil{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    cursor: pointer;
+    width: 120px;
+    height: 60px;
+}
