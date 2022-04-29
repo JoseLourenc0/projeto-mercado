@@ -1,0 +1,14 @@
+.main-conteiner{
+    display: grid;
+    grid-template-columns: 2fr, 1fr;
+}
+.coluna2{
+    display: grid;
+    grid-template-columns: 2fr, 1fr;
+}
+
+#ww_b79626e9cc20d{
+    border-radius: 10px;
+    margin: 10px;
+    
+}
