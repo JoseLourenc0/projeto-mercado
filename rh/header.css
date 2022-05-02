@@ -9,7 +9,7 @@
     text-align: center;
 }
 
-a {
+.header-a {
     text-decoration: none;
     color: #1e1e23;
     opacity: 1;
@@ -18,7 +18,7 @@ a {
     font-weight: 400;
     transition: 200ms;
 }
-a:hover {
+.header-a:hover {
     opacity: 0.5;
 }
 ul {

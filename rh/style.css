@@ -1,14 +1,22 @@
 .main-conteiner{
     display: grid;
-    grid-template-columns: 2fr, 1fr;
+    grid-template-columns: 75% 25%;
+    margin: 20px;
 }
+
+.config-basic{
+    background-color: rgba(100, 128, 255, 0.26);
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(0, 33, 182);
+    margin-right: 20px;
+}
+
 .coluna2{
-    display: grid;
-    grid-template-columns: 2fr, 1fr;
+    display: flex;
+    justify-content: center;
 }
 
 #ww_b79626e9cc20d{
     border-radius: 10px;
-    margin: 10px;
-    
 }
